@@ -20,9 +20,12 @@ env/
 *.swo
 
 # 缓存目录
-cache/audio/
-cache/images/
-cache/spectrum/
+app/cache/audio/
+app/cache/images/
+app/cache/spectrum/
+app/cache/words.db
+app/cache/session.json
+app/cache/settings.json
 
 # 日志
 *.log
