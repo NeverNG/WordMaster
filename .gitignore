@@ -1,0 +1,32 @@
+# PyInstaller 打包输出
+dist/
+build/
+*.spec
+
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.eggs/
+*.egg
+venv/
+.venv/
+env/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# 缓存目录
+cache/audio/
+cache/images/
+cache/spectrum/
+
+# 日志
+*.log
+
+# 系统
+.DS_Store
+Thumbs.db

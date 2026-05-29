@@ -1,0 +1,2474 @@
+{
+  "two": {
+    "ph": "tuː",
+    "pos": "num.",
+    "trans": "num. 二",
+    "level": "CET4",
+    "examples": [
+      {"sentence_en": "I have two brothers.", "sentence_cn": "我有两个兄弟。"},
+      {"sentence_en": "It costs two dollars.", "sentence_cn": "它值两美元。"}
+    ]
+  },
+  "one": {
+    "ph": "wʌn",
+    "pos": "num.",
+    "trans": "num. 一；一个",
+    "level": "CET4",
+    "examples": [
+      {"sentence_en": "I have one apple.", "sentence_cn": "我有一个苹果。"},
+      {"sentence_en": "One plus one equals two.", "sentence_cn": "一加一等于二。"}
+    ]
+  },
+  "three": {
+    "ph": "θriː",
+    "pos": "num.",
+    "trans": "num. 三",
+    "level": "CET4",
+    "examples": [
+      {"sentence_en": "There are three books on the desk.", "sentence_cn": "桌上有三本书。"}
+    ]
+  },
+  "four": {
+    "ph": "fɔːr",
+    "pos": "num.",
+    "trans": "num. 四",
+    "level": "CET4"
+  },
+  "five": {
+    "ph": "faɪv",
+    "pos": "num.",
+    "trans": "num. 五",
+    "level": "CET4"
+  },
+  "six": {
+    "ph": "sɪks",
+    "pos": "num.",
+    "trans": "num. 六",
+    "level": "CET4"
+  },
+  "seven": {
+    "ph": "ˈsev.ən",
+    "pos": "num.",
+    "trans": "num. 七",
+    "level": "CET4"
+  },
+  "eight": {
+    "ph": "eɪt",
+    "pos": "num.",
+    "trans": "num. 八",
+    "level": "CET4"
+  },
+  "nine": {
+    "ph": "naɪn",
+    "pos": "num.",
+    "trans": "num. 九",
+    "level": "CET4"
+  },
+  "ten": {
+    "ph": "ten",
+    "pos": "num.",
+    "trans": "num. 十",
+    "level": "CET4"
+  },
+  "hello": {
+    "ph": "həˈloʊ",
+    "pos": "int.",
+    "trans": "int. 你好；喂",
+    "level": "CET4",
+    "examples": [
+      {"sentence_en": "Hello, how are you?", "sentence_cn": "你好，你怎么样？"},
+      {"sentence_en": "She said hello to me.", "sentence_cn": "她向我打招呼。"}
+    ]
+  },
+  "goodbye": {
+    "ph": "ɡʊdˈbaɪ",
+    "pos": "int.",
+    "trans": "int. 再见",
+    "level": "CET4"
+  },
+  "yes": {
+    "ph": "jes",
+    "pos": "adv.",
+    "trans": "adv. 是；对",
+    "level": "CET4"
+  },
+  "no": {
+    "ph": "noʊ",
+    "pos": "adv.",
+    "trans": "adv. 不；不是",
+    "level": "CET4"
+  },
+  "please": {
+    "ph": "pliːz",
+    "pos": "int.",
+    "trans": "int. 请",
+    "level": "CET4"
+  },
+  "thank": {
+    "ph": "θæŋk",
+    "pos": "v.",
+    "trans": "v. 感谢",
+    "level": "CET4"
+  },
+  "good": {
+    "ph": "ɡʊd",
+    "pos": "adj.",
+    "trans": "adj. 好的；优良的",
+    "level": "CET4",
+    "examples": [
+      {"sentence_en": "This is a good book.", "sentence_cn": "这是一本好书。"}
+    ]
+  },
+  "bad": {
+    "ph": "bæd",
+    "pos": "adj.",
+    "trans": "adj. 坏的；糟糕的",
+    "level": "CET4"
+  },
+  "big": {
+    "ph": "bɪɡ",
+    "pos": "adj.",
+    "trans": "adj. 大的；重要的",
+    "level": "CET4"
+  },
+  "small": {
+    "ph": "smɔːl",
+    "pos": "adj.",
+    "trans": "adj. 小的；少的",
+    "level": "CET4"
+  },
+  "new": {
+    "ph": "njuː",
+    "pos": "adj.",
+    "trans": "adj. 新的；新鲜的",
+    "level": "CET4"
+  },
+  "old": {
+    "ph": "oʊld",
+    "pos": "adj.",
+    "trans": "adj. 老的；旧的",
+    "level": "CET4"
+  },
+  "go": {
+    "ph": "ɡoʊ",
+    "pos": "v.",
+    "trans": "v. 去；走",
+    "level": "CET4"
+  },
+  "come": {
+    "ph": "kʌm",
+    "pos": "v.",
+    "trans": "v. 来；到达",
+    "level": "CET4"
+  },
+  "see": {
+    "ph": "siː",
+    "pos": "v.",
+    "trans": "v. 看见；明白",
+    "level": "CET4"
+  },
+  "know": {
+    "ph": "noʊ",
+    "pos": "v.",
+    "trans": "v. 知道；了解",
+    "level": "CET4"
+  },
+  "have": {
+    "ph": "hæv",
+    "pos": "v.",
+    "trans": "v. 有；拥有",
+    "level": "CET4"
+  },
+  "do": {
+    "ph": "duː",
+    "pos": "v.",
+    "trans": "v. 做；干",
+    "level": "CET4"
+  },
+  "say": {
+    "ph": "seɪ",
+    "pos": "v.",
+    "trans": "v. 说；讲",
+    "level": "CET4"
+  },
+  "get": {
+    "ph": "ɡet",
+    "pos": "v.",
+    "trans": "v. 得到；获得",
+    "level": "CET4"
+  },
+  "make": {
+    "ph": "meɪk",
+    "pos": "v.",
+    "trans": "v. 制造；做",
+    "level": "CET4"
+  },
+  "take": {
+    "ph": "teɪk",
+    "pos": "v.",
+    "trans": "v. 拿；取",
+    "level": "CET4"
+  },
+  "give": {
+    "ph": "ɡɪv",
+    "pos": "v.",
+    "trans": "v. 给；给予",
+    "level": "CET4"
+  },
+  "use": {
+    "ph": "juːz",
+    "pos": "v.",
+    "trans": "v. 使用；利用",
+    "level": "CET4"
+  },
+  "find": {
+    "ph": "faɪnd",
+    "pos": "v.",
+    "trans": "v. 找到；发现",
+    "level": "CET4"
+  },
+  "tell": {
+    "ph": "tel",
+    "pos": "v.",
+    "trans": "v. 告诉；讲述",
+    "level": "CET4"
+  },
+  "ask": {
+    "ph": "æsk",
+    "pos": "v.",
+    "trans": "v. 问；请求",
+    "level": "CET4"
+  },
+  "work": {
+    "ph": "wɜːrk",
+    "pos": "v.",
+    "trans": "v. 工作；运转；n. 工作",
+    "level": "CET4"
+  },
+  "seem": {
+    "ph": "siːm",
+    "pos": "v.",
+    "trans": "v. 似乎；好像",
+    "level": "CET4"
+  },
+  "feel": {
+    "ph": "fiːl",
+    "pos": "v.",
+    "trans": "v. 感觉；觉得",
+    "level": "CET4"
+  },
+  "try": {
+    "ph": "traɪ",
+    "pos": "v.",
+    "trans": "v. 尝试；试图",
+    "level": "CET4"
+  },
+  "leave": {
+    "ph": "liːv",
+    "pos": "v.",
+    "trans": "v. 离开；留下",
+    "level": "CET4"
+  },
+  "call": {
+    "ph": "kɔːl",
+    "pos": "v.",
+    "trans": "v. 打电话；称呼",
+    "level": "CET4"
+  },
+  "keep": {
+    "ph": "kiːp",
+    "pos": "v.",
+    "trans": "v. 保持；保留",
+    "level": "CET4"
+  },
+  "let": {
+    "ph": "let",
+    "pos": "v.",
+    "trans": "v. 让；允许",
+    "level": "CET4"
+  },
+  "begin": {
+    "ph": "bɪˈɡɪn",
+    "pos": "v.",
+    "trans": "v. 开始",
+    "level": "CET4"
+  },
+  "show": {
+    "ph": "ʃoʊ",
+    "pos": "v.",
+    "trans": "v. 展示；显示",
+    "level": "CET4"
+  },
+  "hear": {
+    "ph": "hɪr",
+    "pos": "v.",
+    "trans": "v. 听见；听到",
+    "level": "CET4"
+  },
+  "play": {
+    "ph": "pleɪ",
+    "pos": "v.",
+    "trans": "v. 玩；演奏",
+    "level": "CET4"
+  },
+  "run": {
+    "ph": "rʌn",
+    "pos": "v.",
+    "trans": "v. 跑；运行",
+    "level": "CET4"
+  },
+  "move": {
+    "ph": "muːv",
+    "pos": "v.",
+    "trans": "v. 移动；感动",
+    "level": "CET4"
+  },
+  "live": {
+    "ph": "lɪv",
+    "pos": "v.",
+    "trans": "v. 生活；居住",
+    "level": "CET4"
+  },
+  "believe": {
+    "ph": "bɪˈliːv",
+    "pos": "v.",
+    "trans": "v. 相信；认为",
+    "level": "CET4"
+  },
+  "bring": {
+    "ph": "brɪŋ",
+    "pos": "v.",
+    "trans": "v. 带来；引起",
+    "level": "CET4"
+  },
+  "happen": {
+    "ph": "ˈhæp.ən",
+    "pos": "v.",
+    "trans": "v. 发生；碰巧",
+    "level": "CET4"
+  },
+  "write": {
+    "ph": "raɪt",
+    "pos": "v.",
+    "trans": "v. 写；写作",
+    "level": "CET4"
+  },
+  "read": {
+    "ph": "riːd",
+    "pos": "v.",
+    "trans": "v. 阅读；读",
+    "level": "CET4"
+  },
+  "speak": {
+    "ph": "spiːk",
+    "pos": "v.",
+    "trans": "v. 说话；讲",
+    "level": "CET4"
+  },
+  "eat": {
+    "ph": "iːt",
+    "pos": "v.",
+    "trans": "v. 吃",
+    "level": "CET4"
+  },
+  "drink": {
+    "ph": "drɪŋk",
+    "pos": "v.",
+    "trans": "v. 喝；饮",
+    "level": "CET4"
+  },
+  "sleep": {
+    "ph": "sliːp",
+    "pos": "v.",
+    "trans": "v. 睡觉",
+    "level": "CET4"
+  },
+  "think": {
+    "ph": "θɪŋk",
+    "pos": "v.",
+    "trans": "v. 认为；思考",
+    "level": "CET4"
+  },
+  "want": {
+    "ph": "wɒnt",
+    "pos": "v.",
+    "trans": "v. 想要；需要",
+    "level": "CET4"
+  },
+  "need": {
+    "ph": "niːd",
+    "pos": "v.",
+    "trans": "v. 需要",
+    "level": "CET4"
+  },
+  "like": {
+    "ph": "laɪk",
+    "pos": "v.",
+    "trans": "v. 喜欢；prep. 像",
+    "level": "CET4"
+  },
+  "love": {
+    "ph": "lʌv",
+    "pos": "v.",
+    "trans": "v. 爱；喜欢",
+    "level": "CET4"
+  },
+  "help": {
+    "ph": "help",
+    "pos": "v.",
+    "trans": "v. 帮助",
+    "level": "CET4"
+  },
+  "hope": {
+    "ph": "hoʊp",
+    "pos": "v.",
+    "trans": "v. 希望；期望",
+    "level": "CET4"
+  },
+  "study": {
+    "ph": "ˈstʌdi",
+    "pos": "v.",
+    "trans": "v. 学习；研究",
+    "level": "CET4"
+  },
+  "learn": {
+    "ph": "lɜːrn",
+    "pos": "v.",
+    "trans": "v. 学习；学会",
+    "level": "CET4"
+  },
+  "teach": {
+    "ph": "tiːtʃ",
+    "pos": "v.",
+    "trans": "v. 教；教授",
+    "level": "CET4"
+  },
+  "open": {
+    "ph": "ˈoʊpən",
+    "pos": "v.",
+    "trans": "v. 打开；adj. 开着的",
+    "level": "CET4"
+  },
+  "close": {
+    "ph": "kloʊz",
+    "pos": "v.",
+    "trans": "v. 关闭；adj. 亲近的",
+    "level": "CET4"
+  },
+  "turn": {
+    "ph": "tɜːrn",
+    "pos": "v.",
+    "trans": "v. 转动；转变",
+    "level": "CET4"
+  },
+  "put": {
+    "ph": "pʊt",
+    "pos": "v.",
+    "trans": "v. 放；放置",
+    "level": "CET4"
+  },
+  "set": {
+    "ph": "set",
+    "pos": "v.",
+    "trans": "v. 设置；放置",
+    "level": "CET4"
+  },
+  "stand": {
+    "ph": "stænd",
+    "pos": "v.",
+    "trans": "v. 站立；忍受",
+    "level": "CET4"
+  },
+  "sit": {
+    "ph": "sɪt",
+    "pos": "v.",
+    "trans": "v. 坐",
+    "level": "CET4"
+  },
+  "walk": {
+    "ph": "wɔːk",
+    "pos": "v.",
+    "trans": "v. 走路；散步",
+    "level": "CET4"
+  },
+  "stop": {
+    "ph": "stɒp",
+    "pos": "v.",
+    "trans": "v. 停止；阻止",
+    "level": "CET4"
+  },
+  "buy": {
+    "ph": "baɪ",
+    "pos": "v.",
+    "trans": "v. 买；购买",
+    "level": "CET4"
+  },
+  "pay": {
+    "ph": "peɪ",
+    "pos": "v.",
+    "trans": "v. 支付；付款",
+    "level": "CET4"
+  },
+  "sell": {
+    "ph": "sel",
+    "pos": "v.",
+    "trans": "v. 卖；销售",
+    "level": "CET4"
+  },
+  "send": {
+    "ph": "send",
+    "pos": "v.",
+    "trans": "v. 发送；派遣",
+    "level": "CET4"
+  },
+  "receive": {
+    "ph": "rɪˈsiːv",
+    "pos": "v.",
+    "trans": "v. 收到；接收",
+    "level": "CET4"
+  },
+  "wait": {
+    "ph": "weɪt",
+    "pos": "v.",
+    "trans": "v. 等待",
+    "level": "CET4"
+  },
+  "look": {
+    "ph": "lʊk",
+    "pos": "v.",
+    "trans": "v. 看；看起来",
+    "level": "CET4"
+  },
+  "watch": {
+    "ph": "wɒtʃ",
+    "pos": "v.",
+    "trans": "v. 观看；注视",
+    "level": "CET4"
+  },
+  "listen": {
+    "ph": "ˈlɪs.ən",
+    "pos": "v.",
+    "trans": "v. 听；倾听",
+    "level": "CET4"
+  },
+  "talk": {
+    "ph": "tɔːk",
+    "pos": "v.",
+    "trans": "v. 谈话；讨论",
+    "level": "CET4"
+  },
+  "walk": {
+    "ph": "wɔːk",
+    "pos": "v.",
+    "trans": "v. 走路；步行",
+    "level": "CET4"
+  },
+  "cook": {
+    "ph": "kʊk",
+    "pos": "v.",
+    "trans": "v. 烹饪；做饭",
+    "level": "CET4"
+  },
+  "sing": {
+    "ph": "sɪŋ",
+    "pos": "v.",
+    "trans": "v. 唱；唱歌",
+    "level": "CET4"
+  },
+  "dance": {
+    "ph": "dæns",
+    "pos": "v.",
+    "trans": "v. 跳舞",
+    "level": "CET4"
+  },
+  "draw": {
+    "ph": "drɔː",
+    "pos": "v.",
+    "trans": "v. 画；绘制",
+    "level": "CET4"
+  },
+  "fly": {
+    "ph": "flaɪ",
+    "pos": "v.",
+    "trans": "v. 飞；飞行",
+    "level": "CET4"
+  },
+  "swim": {
+    "ph": "swɪm",
+    "pos": "v.",
+    "trans": "v. 游泳",
+    "level": "CET4"
+  },
+  "drive": {
+    "ph": "draɪv",
+    "pos": "v.",
+    "trans": "v. 驾驶；开车",
+    "level": "CET4"
+  },
+  "ride": {
+    "ph": "raɪd",
+    "pos": "v.",
+    "trans": "v. 骑；乘坐",
+    "level": "CET4"
+  },
+  "fall": {
+    "ph": "fɔːl",
+    "pos": "v.",
+    "trans": "v. 落下；跌倒",
+    "level": "CET4"
+  },
+  "break": {
+    "ph": "breɪk",
+    "pos": "v.",
+    "trans": "v. 打破；折断",
+    "level": "CET4"
+  },
+  "catch": {
+    "ph": "kætʃ",
+    "pos": "v.",
+    "trans": "v. 抓住；赶上",
+    "level": "CET4"
+  },
+  "choose": {
+    "ph": "tʃuːz",
+    "pos": "v.",
+    "trans": "v. 选择；挑选",
+    "level": "CET4"
+  },
+  "forget": {
+    "ph": "fərˈɡet",
+    "pos": "v.",
+    "trans": "v. 忘记",
+    "level": "CET4"
+  },
+  "remember": {
+    "ph": "rɪˈmembər",
+    "pos": "v.",
+    "trans": "v. 记住；想起",
+    "level": "CET4"
+  },
+  "meet": {
+    "ph": "miːt",
+    "pos": "v.",
+    "trans": "v. 遇见；见面",
+    "level": "CET4"
+  },
+  "start": {
+    "ph": "stɑːrt",
+    "pos": "v.",
+    "trans": "v. 开始；启动",
+    "level": "CET4"
+  },
+  "finish": {
+    "ph": "ˈfɪnɪʃ",
+    "pos": "v.",
+    "trans": "v. 完成；结束",
+    "level": "CET4"
+  },
+  "carry": {
+    "ph": "ˈkæri",
+    "pos": "v.",
+    "trans": "v. 携带；搬运",
+    "level": "CET4"
+  },
+  "clean": {
+    "ph": "kliːn",
+    "pos": "v.",
+    "trans": "v. 打扫；adj. 干净的",
+    "level": "CET4"
+  },
+  "cut": {
+    "ph": "kʌt",
+    "pos": "v.",
+    "trans": "v. 切；割",
+    "level": "CET4"
+  },
+  "hit": {
+    "ph": "hɪt",
+    "pos": "v.",
+    "trans": "v. 打；击",
+    "level": "CET4"
+  },
+  "hold": {
+    "ph": "hoʊld",
+    "pos": "v.",
+    "trans": "v. 持有；握住",
+    "level": "CET4"
+  },
+  "keep": {
+    "ph": "kiːp",
+    "pos": "v.",
+    "trans": "v. 保持；保留",
+    "level": "CET4"
+  },
+  "lose": {
+    "ph": "luːz",
+    "pos": "v.",
+    "trans": "v. 失去；丢失",
+    "level": "CET4"
+  },
+  "miss": {
+    "ph": "mɪs",
+    "pos": "v.",
+    "trans": "v. 想念；错过",
+    "level": "CET4"
+  },
+  "pass": {
+    "ph": "pæs",
+    "pos": "v.",
+    "trans": "v. 经过；通过",
+    "level": "CET4"
+  },
+  "pick": {
+    "ph": "pɪk",
+    "pos": "v.",
+    "trans": "v. 挑选；拾起",
+    "level": "CET4"
+  },
+  "plan": {
+    "ph": "plæn",
+    "pos": "v.",
+    "trans": "v. 计划；n. 计划",
+    "level": "CET4"
+  },
+  "play": {
+    "ph": "pleɪ",
+    "pos": "v.",
+    "trans": "v. 玩；播放",
+    "level": "CET4"
+  },
+  "pull": {
+    "ph": "pʊl",
+    "pos": "v.",
+    "trans": "v. 拉；拖",
+    "level": "CET4"
+  },
+  "push": {
+    "ph": "pʊʃ",
+    "pos": "v.",
+    "trans": "v. 推；推动",
+    "level": "CET4"
+  },
+  "raise": {
+    "ph": "reɪz",
+    "pos": "v.",
+    "trans": "v. 提高；举起",
+    "level": "CET4"
+  },
+  "reach": {
+    "ph": "riːtʃ",
+    "pos": "v.",
+    "trans": "v. 到达；够到",
+    "level": "CET4"
+  },
+  "stay": {
+    "ph": "steɪ",
+    "pos": "v.",
+    "trans": "v. 停留；保持",
+    "level": "CET4"
+  },
+  "spend": {
+    "ph": "spend",
+    "pos": "v.",
+    "trans": "v. 花费；度过",
+    "level": "CET4"
+  },
+  "share": {
+    "ph": "ʃer",
+    "pos": "v.",
+    "trans": "v. 分享；共享",
+    "level": "CET4"
+  },
+  "smile": {
+    "ph": "smaɪl",
+    "pos": "v.",
+    "trans": "v. 微笑；n. 微笑",
+    "level": "CET4"
+  },
+  "cry": {
+    "ph": "kraɪ",
+    "pos": "v.",
+    "trans": "v. 哭；喊叫",
+    "level": "CET4"
+  },
+  "laugh": {
+    "ph": "læf",
+    "pos": "v.",
+    "trans": "v. 笑；大笑",
+    "level": "CET4"
+  },
+  "worry": {
+    "ph": "ˈwɜːri",
+    "pos": "v.",
+    "trans": "v. 担心；忧虑",
+    "level": "CET4"
+  },
+  "enjoy": {
+    "ph": "ɪnˈdʒɔɪ",
+    "pos": "v.",
+    "trans": "v. 享受；喜爱",
+    "level": "CET4"
+  },
+  "agree": {
+    "ph": "əˈɡriː",
+    "pos": "v.",
+    "trans": "v. 同意；赞同",
+    "level": "CET4"
+  },
+  "allow": {
+    "ph": "əˈlaʊ",
+    "pos": "v.",
+    "trans": "v. 允许；准许",
+    "level": "CET4"
+  },
+  "appear": {
+    "ph": "əˈpɪr",
+    "pos": "v.",
+    "trans": "v. 出现；似乎",
+    "level": "CET4"
+  },
+  "arrive": {
+    "ph": "əˈraɪv",
+    "pos": "v.",
+    "trans": "v. 到达；抵达",
+    "level": "CET4"
+  },
+  "ask": {
+    "ph": "æsk",
+    "pos": "v.",
+    "trans": "v. 问；请求",
+    "level": "CET4"
+  },
+  "become": {
+    "ph": "bɪˈkʌm",
+    "pos": "v.",
+    "trans": "v. 成为；变得",
+    "level": "CET4"
+  },
+  "build": {
+    "ph": "bɪld",
+    "pos": "v.",
+    "trans": "v. 建造；建立",
+    "level": "CET4"
+  },
+  "change": {
+    "ph": "tʃeɪndʒ",
+    "pos": "v.",
+    "trans": "v. 改变；变化",
+    "level": "CET4"
+  },
+  "check": {
+    "ph": "tʃek",
+    "pos": "v.",
+    "trans": "v. 检查；核对",
+    "level": "CET4"
+  },
+  "collect": {
+    "ph": "kəˈlekt",
+    "pos": "v.",
+    "trans": "v. 收集；收藏",
+    "level": "CET4"
+  },
+  "continue": {
+    "ph": "kənˈtɪnjuː",
+    "pos": "v.",
+    "trans": "v. 继续；连续",
+    "level": "CET4"
+  },
+  "control": {
+    "ph": "kənˈtroʊl",
+    "pos": "v.",
+    "trans": "v. 控制；n. 控制",
+    "level": "CET4"
+  },
+  "decide": {
+    "ph": "dɪˈsaɪd",
+    "pos": "v.",
+    "trans": "v. 决定；决心",
+    "level": "CET4"
+  },
+  "describe": {
+    "ph": "dɪˈskraɪb",
+    "pos": "v.",
+    "trans": "v. 描述；形容",
+    "level": "CET4"
+  },
+  "develop": {
+    "ph": "dɪˈveləp",
+    "pos": "v.",
+    "trans": "v. 发展；开发",
+    "level": "CET4"
+  },
+  "discover": {
+    "ph": "dɪˈskʌvər",
+    "pos": "v.",
+    "trans": "v. 发现；发觉",
+    "level": "CET4"
+  },
+  "discuss": {
+    "ph": "dɪˈskʌs",
+    "pos": "v.",
+    "trans": "v. 讨论；论述",
+    "level": "CET4"
+  },
+  "explain": {
+    "ph": "ɪkˈspleɪn",
+    "pos": "v.",
+    "trans": "v. 解释；说明",
+    "level": "CET4"
+  },
+  "follow": {
+    "ph": "ˈfɒloʊ",
+    "pos": "v.",
+    "trans": "v. 跟随；遵循",
+    "level": "CET4"
+  },
+  "happen": {
+    "ph": "ˈhæpən",
+    "pos": "v.",
+    "trans": "v. 发生；碰巧",
+    "level": "CET4"
+  },
+  "imagine": {
+    "ph": "ɪˈmædʒɪn",
+    "pos": "v.",
+    "trans": "v. 想象；设想",
+    "level": "CET4"
+  },
+  "improve": {
+    "ph": "ɪmˈpruːv",
+    "pos": "v.",
+    "trans": "v. 改善；提高",
+    "level": "CET4"
+  },
+  "include": {
+    "ph": "ɪnˈkluːd",
+    "pos": "v.",
+    "trans": "v. 包括；包含",
+    "level": "CET4"
+  },
+  "increase": {
+    "ph": "ɪnˈkriːs",
+    "pos": "v.",
+    "trans": "v. 增加；增长",
+    "level": "CET4"
+  },
+  "indicate": {
+    "ph": "ˈɪndɪkeɪt",
+    "pos": "v.",
+    "trans": "v. 表明；指示",
+    "level": "CET4"
+  },
+  "influence": {
+    "ph": "ˈɪnfluəns",
+    "pos": "v.",
+    "trans": "v. 影响；n. 影响",
+    "level": "CET4"
+  },
+  "inform": {
+    "ph": "ɪnˈfɔːrm",
+    "pos": "v.",
+    "trans": "v. 通知；告知",
+    "level": "CET4"
+  },
+  "introduce": {
+    "ph": "ˌɪntrəˈduːs",
+    "pos": "v.",
+    "trans": "v. 介绍；引进",
+    "level": "CET4"
+  },
+  "join": {
+    "ph": "dʒɔɪn",
+    "pos": "v.",
+    "trans": "v. 加入；连接",
+    "level": "CET4"
+  },
+  "jump": {
+    "ph": "dʒʌmp",
+    "pos": "v.",
+    "trans": "v. 跳；跳跃",
+    "level": "CET4"
+  },
+  "kick": {
+    "ph": "kɪk",
+    "pos": "v.",
+    "trans": "v. 踢",
+    "level": "CET4"
+  },
+  "knock": {
+    "ph": "nɒk",
+    "pos": "v.",
+    "trans": "v. 敲；击",
+    "level": "CET4"
+  },
+  "land": {
+    "ph": "lænd",
+    "pos": "v.",
+    "trans": "v. 着陆；n. 土地",
+    "level": "CET4"
+  },
+  "last": {
+    "ph": "læst",
+    "pos": "v.",
+    "trans": "v. 持续；adj. 最后的",
+    "level": "CET4"
+  },
+  "lead": {
+    "ph": "liːd",
+    "pos": "v.",
+    "trans": "v. 带领；领导",
+    "level": "CET4"
+  },
+  "lift": {
+    "ph": "lɪft",
+    "pos": "v.",
+    "trans": "v. 举起；抬起",
+    "level": "CET4"
+  },
+  "light": {
+    "ph": "laɪt",
+    "pos": "v.",
+    "trans": "v. 点燃；n. 光",
+    "level": "CET4"
+  },
+  "limit": {
+    "ph": "ˈlɪmɪt",
+    "pos": "v.",
+    "trans": "v. 限制；n. 限度",
+    "level": "CET4"
+  },
+  "link": {
+    "ph": "lɪŋk",
+    "pos": "v.",
+    "trans": "v. 连接；联系",
+    "level": "CET4"
+  },
+  "list": {
+    "ph": "lɪst",
+    "pos": "v.",
+    "trans": "v. 列出；n. 清单",
+    "level": "CET4"
+  },
+  "load": {
+    "ph": "loʊd",
+    "pos": "v.",
+    "trans": "v. 装载；加载",
+    "level": "CET4"
+  },
+  "locate": {
+    "ph": "ˈloʊkeɪt",
+    "pos": "v.",
+    "trans": "v. 位于；定位",
+    "level": "CET4"
+  },
+  "lock": {
+    "ph": "lɒk",
+    "pos": "v.",
+    "trans": "v. 锁上；n. 锁",
+    "level": "CET4"
+  },
+  "march": {
+    "ph": "mɑːrtʃ",
+    "pos": "v.",
+    "trans": "v. 前进；行进",
+    "level": "CET4"
+  },
+  "mark": {
+    "ph": "mɑːrk",
+    "pos": "v.",
+    "trans": "v. 标记；n. 记号",
+    "level": "CET4"
+  },
+  "match": {
+    "ph": "mætʃ",
+    "pos": "v.",
+    "trans": "v. 匹配；n. 比赛",
+    "level": "CET4"
+  },
+  "measure": {
+    "ph": "ˈmeʒər",
+    "pos": "v.",
+    "trans": "v. 测量；n. 措施",
+    "level": "CET4"
+  },
+  "mention": {
+    "ph": "ˈmenʃn",
+    "pos": "v.",
+    "trans": "v. 提到；说起",
+    "level": "CET4"
+  },
+  "mix": {
+    "ph": "mɪks",
+    "pos": "v.",
+    "trans": "v. 混合；搅拌",
+    "level": "CET4"
+  },
+  "name": {
+    "ph": "neɪm",
+    "pos": "v.",
+    "trans": "v. 命名；n. 名字",
+    "level": "CET4"
+  },
+  "notice": {
+    "ph": "ˈnoʊtɪs",
+    "pos": "v.",
+    "trans": "v. 注意到；n. 通知",
+    "level": "CET4"
+  },
+  "offer": {
+    "ph": "ˈɔːfər",
+    "pos": "v.",
+    "trans": "v. 提供；提议",
+    "level": "CET4"
+  },
+  "order": {
+    "ph": "ˈɔːrdər",
+    "pos": "v.",
+    "trans": "v. 命令；n. 顺序",
+    "level": "CET4"
+  },
+  "pack": {
+    "ph": "pæk",
+    "pos": "v.",
+    "trans": "v. 包装；打包",
+    "level": "CET4"
+  },
+  "paint": {
+    "ph": "peɪnt",
+    "pos": "v.",
+    "trans": "v. 油漆；绘画",
+    "level": "CET4"
+  },
+  "perform": {
+    "ph": "pərˈfɔːrm",
+    "pos": "v.",
+    "trans": "v. 表演；执行",
+    "level": "CET4"
+  },
+  "place": {
+    "ph": "pleɪs",
+    "pos": "v.",
+    "trans": "v. 放置；n. 地方",
+    "level": "CET4"
+  },
+  "point": {
+    "ph": "pɔɪnt",
+    "pos": "v.",
+    "trans": "v. 指向；n. 点",
+    "level": "CET4"
+  },
+  "post": {
+    "ph": "poʊst",
+    "pos": "v.",
+    "trans": "v. 邮寄；n. 邮件",
+    "level": "CET4"
+  },
+  "pour": {
+    "ph": "pɔːr",
+    "pos": "v.",
+    "trans": "v. 倒；灌；倾泻",
+    "level": "CET4"
+  },
+  "practice": {
+    "ph": "ˈpræktɪs",
+    "pos": "v.",
+    "trans": "v. 练习；实践",
+    "level": "CET4"
+  },
+  "prefer": {
+    "ph": "prɪˈfɜːr",
+    "pos": "v.",
+    "trans": "v. 更喜欢；偏好",
+    "level": "CET4"
+  },
+  "prepare": {
+    "ph": "prɪˈper",
+    "pos": "v.",
+    "trans": "v. 准备；预备",
+    "level": "CET4"
+  },
+  "present": {
+    "ph": "ˈpreznt",
+    "pos": "v.",
+    "trans": "v. 呈现；n. 礼物",
+    "level": "CET4"
+  },
+  "prevent": {
+    "ph": "prɪˈvent",
+    "pos": "v.",
+    "trans": "v. 防止；预防",
+    "level": "CET4"
+  },
+  "produce": {
+    "ph": "prəˈduːs",
+    "pos": "v.",
+    "trans": "v. 生产；制造",
+    "level": "CET4"
+  },
+  "promise": {
+    "ph": "ˈprɒmɪs",
+    "pos": "v.",
+    "trans": "v. 承诺；n. 诺言",
+    "level": "CET4"
+  },
+  "protect": {
+    "ph": "prəˈtekt",
+    "pos": "v.",
+    "trans": "v. 保护；防护",
+    "level": "CET4"
+  },
+  "prove": {
+    "ph": "pruːv",
+    "pos": "v.",
+    "trans": "v. 证明；证实",
+    "level": "CET4"
+  },
+  "provide": {
+    "ph": "prəˈvaɪd",
+    "pos": "v.",
+    "trans": "v. 提供；供给",
+    "level": "CET4"
+  },
+  "publish": {
+    "ph": "ˈpʌblɪʃ",
+    "pos": "v.",
+    "trans": "v. 出版；发布",
+    "level": "CET4"
+  },
+  "punish": {
+    "ph": "ˈpʌnɪʃ",
+    "pos": "v.",
+    "trans": "v. 惩罚；处罚",
+    "level": "CET4"
+  },
+  "push": {
+    "ph": "pʊʃ",
+    "pos": "v.",
+    "trans": "v. 推；推动",
+    "level": "CET4"
+  },
+  "rain": {
+    "ph": "reɪn",
+    "pos": "v.",
+    "trans": "v. 下雨；n. 雨",
+    "level": "CET4"
+  },
+  "reach": {
+    "ph": "riːtʃ",
+    "pos": "v.",
+    "trans": "v. 到达；够到",
+    "level": "CET4"
+  },
+  "realize": {
+    "ph": "ˈriːəlaɪz",
+    "pos": "v.",
+    "trans": "v. 意识到；实现",
+    "level": "CET4"
+  },
+  "record": {
+    "ph": "rɪˈkɔːrd",
+    "pos": "v.",
+    "trans": "v. 记录；录音",
+    "level": "CET4"
+  },
+  "reduce": {
+    "ph": "rɪˈduːs",
+    "pos": "v.",
+    "trans": "v. 减少；降低",
+    "level": "CET4"
+  },
+  "refuse": {
+    "ph": "rɪˈfjuːz",
+    "pos": "v.",
+    "trans": "v. 拒绝；回绝",
+    "level": "CET4"
+  },
+  "regard": {
+    "ph": "rɪˈɡɑːrd",
+    "pos": "v.",
+    "trans": "v. 认为；看待",
+    "level": "CET4"
+  },
+  "regret": {
+    "ph": "rɪˈɡret",
+    "pos": "v.",
+    "trans": "v. 后悔；遗憾",
+    "level": "CET4"
+  },
+  "relate": {
+    "ph": "rɪˈleɪt",
+    "pos": "v.",
+    "trans": "v. 涉及；与…有关",
+    "level": "CET4"
+  },
+  "release": {
+    "ph": "rɪˈliːs",
+    "pos": "v.",
+    "trans": "v. 释放；发布",
+    "level": "CET4"
+  },
+  "remain": {
+    "ph": "rɪˈmeɪn",
+    "pos": "v.",
+    "trans": "v. 保持；剩余",
+    "level": "CET4"
+  },
+  "remove": {
+    "ph": "rɪˈmuːv",
+    "pos": "v.",
+    "trans": "v. 移走；去除",
+    "level": "CET4"
+  },
+  "repeat": {
+    "ph": "rɪˈpiːt",
+    "pos": "v.",
+    "trans": "v. 重复；重做",
+    "level": "CET4"
+  },
+  "replace": {
+    "ph": "rɪˈpleɪs",
+    "pos": "v.",
+    "trans": "v. 取代；替换",
+    "level": "CET4"
+  },
+  "report": {
+    "ph": "rɪˈpɔːrt",
+    "pos": "v.",
+    "trans": "v. 报告；报道",
+    "level": "CET4"
+  },
+  "request": {
+    "ph": "rɪˈkwest",
+    "pos": "v.",
+    "trans": "v. 请求；n. 请求",
+    "level": "CET4"
+  },
+  "require": {
+    "ph": "rɪˈkwaɪər",
+    "pos": "v.",
+    "trans": "v. 需要；要求",
+    "level": "CET4"
+  },
+  "respect": {
+    "ph": "rɪˈspekt",
+    "pos": "v.",
+    "trans": "v. 尊重；n. 尊重",
+    "level": "CET4"
+  },
+  "respond": {
+    "ph": "rɪˈspɒnd",
+    "pos": "v.",
+    "trans": "v. 回答；回应",
+    "level": "CET4"
+  },
+  "rest": {
+    "ph": "rest",
+    "pos": "v.",
+    "trans": "v. 休息；n. 休息",
+    "level": "CET4"
+  },
+  "result": {
+    "ph": "rɪˈzʌlt",
+    "pos": "v.",
+    "trans": "v. 导致；n. 结果",
+    "level": "CET4"
+  },
+  "return": {
+    "ph": "rɪˈtɜːrn",
+    "pos": "v.",
+    "trans": "v. 返回；归还",
+    "level": "CET4"
+  },
+  "review": {
+    "ph": "rɪˈvjuː",
+    "pos": "v.",
+    "trans": "v. 复习；评论",
+    "level": "CET4"
+  },
+  "save": {
+    "ph": "seɪv",
+    "pos": "v.",
+    "trans": "v. 节省；挽救",
+    "level": "CET4"
+  },
+  "search": {
+    "ph": "sɜːrtʃ",
+    "pos": "v.",
+    "trans": "v. 搜索；搜寻",
+    "level": "CET4"
+  },
+  "separate": {
+    "ph": "ˈsepəreɪt",
+    "pos": "v.",
+    "trans": "v. 分开；分离",
+    "level": "CET4"
+  },
+  "serve": {
+    "ph": "sɜːrv",
+    "pos": "v.",
+    "trans": "v. 服务；提供",
+    "level": "CET4"
+  },
+  "settle": {
+    "ph": "ˈsetl",
+    "pos": "v.",
+    "trans": "v. 解决；定居",
+    "level": "CET4"
+  },
+  "shake": {
+    "ph": "ʃeɪk",
+    "pos": "v.",
+    "trans": "v. 摇动；震动",
+    "level": "CET4"
+  },
+  "shape": {
+    "ph": "ʃeɪp",
+    "pos": "v.",
+    "trans": "v. 塑造；n. 形状",
+    "level": "CET4"
+  },
+  "shoot": {
+    "ph": "ʃuːt",
+    "pos": "v.",
+    "trans": "v. 射击；拍摄",
+    "level": "CET4"
+  },
+  "shout": {
+    "ph": "ʃaʊt",
+    "pos": "v.",
+    "trans": "v. 喊叫；呼喊",
+    "level": "CET4"
+  },
+  "sign": {
+    "ph": "saɪn",
+    "pos": "v.",
+    "trans": "v. 签名；n. 标志",
+    "level": "CET4"
+  },
+  "skip": {
+    "ph": "skɪp",
+    "pos": "v.",
+    "trans": "v. 跳过；略过",
+    "level": "CET4"
+  },
+  "sort": {
+    "ph": "sɔːrt",
+    "pos": "v.",
+    "trans": "v. 分类；n. 种类",
+    "level": "CET4"
+  },
+  "sound": {
+    "ph": "saʊnd",
+    "pos": "v.",
+    "trans": "v. 听起来；n. 声音",
+    "level": "CET4"
+  },
+  "snow": {
+    "ph": "snoʊ",
+    "pos": "v.",
+    "trans": "v. 下雪；n. 雪",
+    "level": "CET4"
+  },
+  "suffer": {
+    "ph": "ˈsʌfər",
+    "pos": "v.",
+    "trans": "v. 遭受；忍受",
+    "level": "CET4"
+  },
+  "suggest": {
+    "ph": "səˈdʒest",
+    "pos": "v.",
+    "trans": "v. 建议；暗示",
+    "level": "CET4"
+  },
+  "supply": {
+    "ph": "səˈplaɪ",
+    "pos": "v.",
+    "trans": "v. 供应；n. 供应",
+    "level": "CET4"
+  },
+  "support": {
+    "ph": "səˈpɔːrt",
+    "pos": "v.",
+    "trans": "v. 支持；n. 支持",
+    "level": "CET4"
+  },
+  "suppose": {
+    "ph": "səˈpoʊz",
+    "pos": "v.",
+    "trans": "v. 假设；认为",
+    "level": "CET4"
+  },
+  "surprise": {
+    "ph": "sərˈpraɪz",
+    "pos": "v.",
+    "trans": "v. 使惊讶；n. 惊喜",
+    "level": "CET4"
+  },
+  "surround": {
+    "ph": "səˈraʊnd",
+    "pos": "v.",
+    "trans": "v. 包围；环绕",
+    "level": "CET4"
+  },
+  "survive": {
+    "ph": "sərˈvaɪv",
+    "pos": "v.",
+    "trans": "v. 幸存；生存",
+    "level": "CET4"
+  },
+  "suspect": {
+    "ph": "səˈspekt",
+    "pos": "v.",
+    "trans": "v. 怀疑；n. 嫌疑犯",
+    "level": "CET4"
+  },
+  "taste": {
+    "ph": "teɪst",
+    "pos": "v.",
+    "trans": "v. 品尝；n. 味道",
+    "level": "CET4"
+  },
+  "teach": {
+    "ph": "tiːtʃ",
+    "pos": "v.",
+    "trans": "v. 教；教导",
+    "level": "CET4"
+  },
+  "telephone": {
+    "ph": "ˈtelɪfoʊn",
+    "pos": "v.",
+    "trans": "v. 打电话；n. 电话",
+    "level": "CET4"
+  },
+  "test": {
+    "ph": "test",
+    "pos": "v.",
+    "trans": "v. 测试；n. 测试",
+    "level": "CET4"
+  },
+  "thank": {
+    "ph": "θæŋk",
+    "pos": "v.",
+    "trans": "v. 感谢；n. 感谢",
+    "level": "CET4"
+  },
+  "threaten": {
+    "ph": "ˈθretn",
+    "pos": "v.",
+    "trans": "v. 威胁；恐吓",
+    "level": "CET4"
+  },
+  "throw": {
+    "ph": "θroʊ",
+    "pos": "v.",
+    "trans": "v. 扔；投",
+    "level": "CET4"
+  },
+  "touch": {
+    "ph": "tʌtʃ",
+    "pos": "v.",
+    "trans": "v. 触摸；n. 接触",
+    "level": "CET4"
+  },
+  "train": {
+    "ph": "treɪn",
+    "pos": "v.",
+    "trans": "v. 训练；n. 火车",
+    "level": "CET4"
+  },
+  "treat": {
+    "ph": "triːt",
+    "pos": "v.",
+    "trans": "v. 对待；治疗",
+    "level": "CET4"
+  },
+  "trust": {
+    "ph": "trʌst",
+    "pos": "v.",
+    "trans": "v. 信任；n. 信任",
+    "level": "CET4"
+  },
+  "understand": {
+    "ph": "ˌʌndərˈstænd",
+    "pos": "v.",
+    "trans": "v. 理解；明白",
+    "level": "CET4"
+  },
+  "visit": {
+    "ph": "ˈvɪzɪt",
+    "pos": "v.",
+    "trans": "v. 参观；访问",
+    "level": "CET4"
+  },
+  "wait": {
+    "ph": "weɪt",
+    "pos": "v.",
+    "trans": "v. 等待；等候",
+    "level": "CET4"
+  },
+  "wake": {
+    "ph": "weɪk",
+    "pos": "v.",
+    "trans": "v. 醒来；叫醒",
+    "level": "CET4"
+  },
+  "warn": {
+    "ph": "wɔːrn",
+    "pos": "v.",
+    "trans": "v. 警告；提醒",
+    "level": "CET4"
+  },
+  "wash": {
+    "ph": "wɒʃ",
+    "pos": "v.",
+    "trans": "v. 洗；洗涤",
+    "level": "CET4"
+  },
+  "waste": {
+    "ph": "weɪst",
+    "pos": "v.",
+    "trans": "v. 浪费；n. 浪费",
+    "level": "CET4"
+  },
+  "watch": {
+    "ph": "wɒtʃ",
+    "pos": "v.",
+    "trans": "v. 看；注视",
+    "level": "CET4"
+  },
+  "wear": {
+    "ph": "wer",
+    "pos": "v.",
+    "trans": "v. 穿；戴",
+    "level": "CET4"
+  },
+  "weigh": {
+    "ph": "weɪ",
+    "pos": "v.",
+    "trans": "v. 称重；权衡",
+    "level": "CET4"
+  },
+  "win": {
+    "ph": "wɪn",
+    "pos": "v.",
+    "trans": "v. 赢；获胜",
+    "level": "CET4"
+  },
+  "wish": {
+    "ph": "wɪʃ",
+    "pos": "v.",
+    "trans": "v. 希望；祝愿",
+    "level": "CET4"
+  },
+  "wonder": {
+    "ph": "ˈwʌndər",
+    "pos": "v.",
+    "trans": "v. 想知道；n. 奇迹",
+    "level": "CET4"
+  },
+  "worry": {
+    "ph": "ˈwɜːri",
+    "pos": "v.",
+    "trans": "v. 担心；n. 担心",
+    "level": "CET4"
+  },
+  "wrap": {
+    "ph": "ræp",
+    "pos": "v.",
+    "trans": "v. 包；裹",
+    "level": "CET4"
+  },
+  "write": {
+    "ph": "raɪt",
+    "pos": "v.",
+    "trans": "v. 写；写作",
+    "level": "CET4"
+  },
+  "yell": {
+    "ph": "jel",
+    "pos": "v.",
+    "trans": "v. 叫喊；大喊",
+    "level": "CET4"
+  },
+  "zero": {
+    "ph": "ˈzɪroʊ",
+    "pos": "num.",
+    "trans": "num. 零",
+    "level": "CET4"
+  },
+  "about": {
+    "ph": "əˈbaʊt",
+    "pos": "prep.",
+    "trans": "prep. 关于；大约",
+    "level": "CET4"
+  },
+  "above": {
+    "ph": "əˈbʌv",
+    "pos": "prep.",
+    "trans": "prep. 在…上方；超过",
+    "level": "CET4"
+  },
+  "across": {
+    "ph": "əˈkrɒs",
+    "pos": "prep.",
+    "trans": "prep. 穿过；横跨",
+    "level": "CET4"
+  },
+  "after": {
+    "ph": "ˈæftər",
+    "pos": "prep.",
+    "trans": "prep. 在…之后；conj. 之后",
+    "level": "CET4"
+  },
+  "again": {
+    "ph": "əˈɡen",
+    "pos": "adv.",
+    "trans": "adv. 再次；又",
+    "level": "CET4"
+  },
+  "against": {
+    "ph": "əˈɡenst",
+    "pos": "prep.",
+    "trans": "prep. 反对；靠着",
+    "level": "CET4"
+  },
+  "ago": {
+    "ph": "əˈɡoʊ",
+    "pos": "adv.",
+    "trans": "adv. 以前",
+    "level": "CET4"
+  },
+  "all": {
+    "ph": "ɔːl",
+    "pos": "adj.",
+    "trans": "adj. 所有的；adv. 完全",
+    "level": "CET4"
+  },
+  "almost": {
+    "ph": "ˈɔːlmoʊst",
+    "pos": "adv.",
+    "trans": "adv. 几乎；差不多",
+    "level": "CET4"
+  },
+  "along": {
+    "ph": "əˈlɔːŋ",
+    "pos": "prep.",
+    "trans": "prep. 沿着；adv. 一起",
+    "level": "CET4"
+  },
+  "already": {
+    "ph": "ɔːlˈredi",
+    "pos": "adv.",
+    "trans": "adv. 已经",
+    "level": "CET4"
+  },
+  "also": {
+    "ph": "ˈɔːlsoʊ",
+    "pos": "adv.",
+    "trans": "adv. 也；还",
+    "level": "CET4"
+  },
+  "always": {
+    "ph": "ˈɔːlweɪz",
+    "pos": "adv.",
+    "trans": "adv. 总是；一直",
+    "level": "CET4"
+  },
+  "among": {
+    "ph": "əˈmʌŋ",
+    "pos": "prep.",
+    "trans": "prep. 在…之中",
+    "level": "CET4"
+  },
+  "and": {
+    "ph": "ænd",
+    "pos": "conj.",
+    "trans": "conj. 和；与",
+    "level": "CET4"
+  },
+  "another": {
+    "ph": "əˈnʌðər",
+    "pos": "adj.",
+    "trans": "adj. 另一个的；pron. 另一个",
+    "level": "CET4"
+  },
+  "any": {
+    "ph": "ˈeni",
+    "pos": "adj.",
+    "trans": "adj. 任何的；pron. 任何",
+    "level": "CET4"
+  },
+  "around": {
+    "ph": "əˈraʊnd",
+    "pos": "prep.",
+    "trans": "prep. 在…周围；adv. 大约",
+    "level": "CET4"
+  },
+  "away": {
+    "ph": "əˈweɪ",
+    "pos": "adv.",
+    "trans": "adv. 离开；远离",
+    "level": "CET4"
+  },
+  "back": {
+    "ph": "bæk",
+    "pos": "adv.",
+    "trans": "adv. 向后；n. 背部",
+    "level": "CET4"
+  },
+  "because": {
+    "ph": "bɪˈkɔːz",
+    "pos": "conj.",
+    "trans": "conj. 因为",
+    "level": "CET4"
+  },
+  "before": {
+    "ph": "bɪˈfɔːr",
+    "pos": "prep.",
+    "trans": "prep. 在…之前；conj. 在…之前",
+    "level": "CET4"
+  },
+  "behind": {
+    "ph": "bɪˈhaɪnd",
+    "pos": "prep.",
+    "trans": "prep. 在…后面",
+    "level": "CET4"
+  },
+  "below": {
+    "ph": "bɪˈloʊ",
+    "pos": "prep.",
+    "trans": "prep. 在…下面",
+    "level": "CET4"
+  },
+  "beside": {
+    "ph": "bɪˈsaɪd",
+    "pos": "prep.",
+    "trans": "prep. 在…旁边",
+    "level": "CET4"
+  },
+  "between": {
+    "ph": "bɪˈtwiːn",
+    "pos": "prep.",
+    "trans": "prep. 在…之间",
+    "level": "CET4"
+  },
+  "beyond": {
+    "ph": "bɪˈjɒnd",
+    "pos": "prep.",
+    "trans": "prep. 超出；超过",
+    "level": "CET4"
+  },
+  "both": {
+    "ph": "boʊθ",
+    "pos": "adj.",
+    "trans": "adj. 两者的；pron. 两者",
+    "level": "CET4"
+  },
+  "but": {
+    "ph": "bʌt",
+    "pos": "conj.",
+    "trans": "conj. 但是；prep. 除了",
+    "level": "CET4"
+  },
+  "by": {
+    "ph": "baɪ",
+    "pos": "prep.",
+    "trans": "prep. 通过；由；在…旁边",
+    "level": "CET4"
+  },
+  "down": {
+    "ph": "daʊn",
+    "pos": "adv.",
+    "trans": "adv. 向下；prep. 沿着…往下",
+    "level": "CET4"
+  },
+  "during": {
+    "ph": "ˈdʊrɪŋ",
+    "pos": "prep.",
+    "trans": "prep. 在…期间",
+    "level": "CET4"
+  },
+  "each": {
+    "ph": "iːtʃ",
+    "pos": "adj.",
+    "trans": "adj. 每个的；pron. 每个",
+    "level": "CET4"
+  },
+  "early": {
+    "ph": "ˈɜːrli",
+    "pos": "adv.",
+    "trans": "adv. 早；adj. 早期的",
+    "level": "CET4"
+  },
+  "either": {
+    "ph": "ˈaɪðər",
+    "pos": "conj.",
+    "trans": "conj. 要么；adv. 也（不）",
+    "level": "CET4"
+  },
+  "else": {
+    "ph": "els",
+    "pos": "adv.",
+    "trans": "adv. 其他；另外",
+    "level": "CET4"
+  },
+  "enough": {
+    "ph": "ɪˈnʌf",
+    "pos": "adj.",
+    "trans": "adj. 足够的；adv. 足够地",
+    "level": "CET4"
+  },
+  "even": {
+    "ph": "ˈiːvn",
+    "pos": "adv.",
+    "trans": "adv. 甚至；adj. 平坦的",
+    "level": "CET4"
+  },
+  "ever": {
+    "ph": "ˈevər",
+    "pos": "adv.",
+    "trans": "adv. 曾经；永远",
+    "level": "CET4"
+  },
+  "every": {
+    "ph": "ˈevri",
+    "pos": "adj.",
+    "trans": "adj. 每个的；每一",
+    "level": "CET4"
+  },
+  "except": {
+    "ph": "ɪkˈsept",
+    "pos": "prep.",
+    "trans": "prep. 除了；conj. 除了",
+    "level": "CET4"
+  },
+  "few": {
+    "ph": "fjuː",
+    "pos": "adj.",
+    "trans": "adj. 很少的；少数的",
+    "level": "CET4"
+  },
+  "first": {
+    "ph": "fɜːrst",
+    "pos": "adj.",
+    "trans": "adj. 第一的；adv. 首先",
+    "level": "CET4"
+  },
+  "for": {
+    "ph": "fɔːr",
+    "pos": "prep.",
+    "trans": "prep. 为了；因为；对于",
+    "level": "CET4"
+  },
+  "forward": {
+    "ph": "ˈfɔːrwərd",
+    "pos": "adv.",
+    "trans": "adv. 向前；前进",
+    "level": "CET4"
+  },
+  "from": {
+    "ph": "frʌm",
+    "pos": "prep.",
+    "trans": "prep. 从；来自",
+    "level": "CET4"
+  },
+  "great": {
+    "ph": "ɡreɪt",
+    "pos": "adj.",
+    "trans": "adj. 伟大的；很好的",
+    "level": "CET4"
+  },
+  "however": {
+    "ph": "haʊˈevər",
+    "pos": "adv.",
+    "trans": "adv. 然而；无论如何",
+    "level": "CET4"
+  },
+  "if": {
+    "ph": "ɪf",
+    "pos": "conj.",
+    "trans": "conj. 如果；是否",
+    "level": "CET4"
+  },
+  "important": {
+    "ph": "ɪmˈpɔːrtnt",
+    "pos": "adj.",
+    "trans": "adj. 重要的",
+    "level": "CET4"
+  },
+  "into": {
+    "ph": "ˈɪntuː",
+    "pos": "prep.",
+    "trans": "prep. 进入；到…里",
+    "level": "CET4"
+  },
+  "just": {
+    "ph": "dʒʌst",
+    "pos": "adv.",
+    "trans": "adv. 刚刚；正好；仅仅",
+    "level": "CET4"
+  },
+  "kind": {
+    "ph": "kaɪnd",
+    "pos": "n.",
+    "trans": "n. 种类；adj. 善良的",
+    "level": "CET4"
+  },
+  "later": {
+    "ph": "ˈleɪtər",
+    "pos": "adv.",
+    "trans": "adv. 后来；以后",
+    "level": "CET4"
+  },
+  "least": {
+    "ph": "liːst",
+    "pos": "adj.",
+    "trans": "adj. 最少的；adv. 最少",
+    "level": "CET4"
+  },
+  "less": {
+    "ph": "les",
+    "pos": "adj.",
+    "trans": "adj. 较少的；adv. 较少地",
+    "level": "CET4"
+  },
+  "little": {
+    "ph": "ˈlɪtl",
+    "pos": "adj.",
+    "trans": "adj. 小的；少的",
+    "level": "CET4"
+  },
+  "many": {
+    "ph": "ˈmeni",
+    "pos": "adj.",
+    "trans": "adj. 许多的；pron. 许多",
+    "level": "CET4"
+  },
+  "maybe": {
+    "ph": "ˈmeɪbi",
+    "pos": "adv.",
+    "trans": "adv. 也许；可能",
+    "level": "CET4"
+  },
+  "more": {
+    "ph": "mɔːr",
+    "pos": "adj.",
+    "trans": "adj. 更多的；adv. 更",
+    "level": "CET4"
+  },
+  "most": {
+    "ph": "moʊst",
+    "pos": "adj.",
+    "trans": "adj. 最多的；adv. 最",
+    "level": "CET4"
+  },
+  "much": {
+    "ph": "mʌtʃ",
+    "pos": "adv.",
+    "trans": "adv. 非常；adj. 许多的",
+    "level": "CET4"
+  },
+  "near": {
+    "ph": "nɪr",
+    "pos": "prep.",
+    "trans": "prep. 靠近；adj. 近的",
+    "level": "CET4"
+  },
+  "never": {
+    "ph": "ˈnevər",
+    "pos": "adv.",
+    "trans": "adv. 从不；决不",
+    "level": "CET4"
+  },
+  "next": {
+    "ph": "nekst",
+    "pos": "adj.",
+    "trans": "adj. 下一个的；adv. 接下来",
+    "level": "CET4"
+  },
+  "nobody": {
+    "ph": "ˈnoʊbədi",
+    "pos": "pron.",
+    "trans": "pron. 没有人",
+    "level": "CET4"
+  },
+  "nothing": {
+    "ph": "ˈnʌθɪŋ",
+    "pos": "pron.",
+    "trans": "pron. 没有什么；adv. 一点也不",
+    "level": "CET4"
+  },
+  "now": {
+    "ph": "naʊ",
+    "pos": "adv.",
+    "trans": "adv. 现在；目前",
+    "level": "CET4"
+  },
+  "often": {
+    "ph": "ˈɔːfn",
+    "pos": "adv.",
+    "trans": "adv. 经常；常常",
+    "level": "CET4"
+  },
+  "once": {
+    "ph": "wʌns",
+    "pos": "adv.",
+    "trans": "adv. 一次；曾经；conj. 一旦",
+    "level": "CET4"
+  },
+  "only": {
+    "ph": "ˈoʊnli",
+    "pos": "adv.",
+    "trans": "adv. 仅仅；adj. 唯一的",
+    "level": "CET4"
+  },
+  "onto": {
+    "ph": "ˈɒntuː",
+    "pos": "prep.",
+    "trans": "prep. 到…上",
+    "level": "CET4"
+  },
+  "other": {
+    "ph": "ˈʌðər",
+    "pos": "adj.",
+    "trans": "adj. 其他的；pron. 其他",
+    "level": "CET4"
+  },
+  "outside": {
+    "ph": "ˌaʊtˈsaɪd",
+    "pos": "n.",
+    "trans": "n. 外面；prep. 在…外面",
+    "level": "CET4"
+  },
+  "over": {
+    "ph": "ˈoʊvər",
+    "pos": "prep.",
+    "trans": "prep. 在…上方；超过",
+    "level": "CET4"
+  },
+  "perhaps": {
+    "ph": "pərˈhæps",
+    "pos": "adv.",
+    "trans": "adv. 也许；可能",
+    "level": "CET4"
+  },
+  "quite": {
+    "ph": "kwaɪt",
+    "pos": "adv.",
+    "trans": "adv. 相当；十分",
+    "level": "CET4"
+  },
+  "rather": {
+    "ph": "ˈræðər",
+    "pos": "adv.",
+    "trans": "adv. 相当；宁愿",
+    "level": "CET4"
+  },
+  "really": {
+    "ph": "ˈriːəli",
+    "pos": "adv.",
+    "trans": "adv. 真正地；确实",
+    "level": "CET4"
+  },
+  "second": {
+    "ph": "ˈsekənd",
+    "pos": "adj.",
+    "trans": "adj. 第二的；n. 秒",
+    "level": "CET4"
+  },
+  "several": {
+    "ph": "ˈsevrəl",
+    "pos": "adj.",
+    "trans": "adj. 几个的；若干的",
+    "level": "CET4"
+  },
+  "should": {
+    "ph": "ʃʊd",
+    "pos": "v. aux.",
+    "trans": "aux. 应该；将会",
+    "level": "CET4"
+  },
+  "since": {
+    "ph": "sɪns",
+    "pos": "prep.",
+    "trans": "prep. 自从；conj. 因为；自从",
+    "level": "CET4"
+  },
+  "slowly": {
+    "ph": "ˈsloʊli",
+    "pos": "adv.",
+    "trans": "adv. 慢慢地",
+    "level": "CET4"
+  },
+  "so": {
+    "ph": "soʊ",
+    "pos": "adv.",
+    "trans": "adv. 如此；所以；conj. 所以",
+    "level": "CET4"
+  },
+  "some": {
+    "ph": "sʌm",
+    "pos": "adj.",
+    "trans": "adj. 一些的；pron. 一些",
+    "level": "CET4"
+  },
+  "somebody": {
+    "ph": "ˈsʌmbədi",
+    "pos": "pron.",
+    "trans": "pron. 某人；有人",
+    "level": "CET4"
+  },
+  "someone": {
+    "ph": "ˈsʌmwʌn",
+    "pos": "pron.",
+    "trans": "pron. 某人；有人",
+    "level": "CET4"
+  },
+  "something": {
+    "ph": "ˈsʌmθɪŋ",
+    "pos": "pron.",
+    "trans": "pron. 某事；某物",
+    "level": "CET4"
+  },
+  "sometimes": {
+    "ph": "ˈsʌmtaɪmz",
+    "pos": "adv.",
+    "trans": "adv. 有时候",
+    "level": "CET4"
+  },
+  "somewhere": {
+    "ph": "ˈsʌmwer",
+    "pos": "adv.",
+    "trans": "adv. 某处",
+    "level": "CET4"
+  },
+  "soon": {
+    "ph": "suːn",
+    "pos": "adv.",
+    "trans": "adv. 很快；不久",
+    "level": "CET4"
+  },
+  "still": {
+    "ph": "stɪl",
+    "pos": "adv.",
+    "trans": "adv. 仍然；还",
+    "level": "CET4"
+  },
+  "such": {
+    "ph": "sʌtʃ",
+    "pos": "adj.",
+    "trans": "adj. 这样的；pron. 这样的人/物",
+    "level": "CET4"
+  },
+  "suddenly": {
+    "ph": "ˈsʌdənli",
+    "pos": "adv.",
+    "trans": "adv. 突然地",
+    "level": "CET4"
+  },
+  "sure": {
+    "ph": "ʃʊr",
+    "pos": "adj.",
+    "trans": "adj. 肯定的；adv. 当然",
+    "level": "CET4"
+  },
+  "then": {
+    "ph": "ðen",
+    "pos": "adv.",
+    "trans": "adv. 然后；那时",
+    "level": "CET4"
+  },
+  "there": {
+    "ph": "ðer",
+    "pos": "adv.",
+    "trans": "adv. 在那里；在那里",
+    "level": "CET4"
+  },
+  "therefore": {
+    "ph": "ˈðerfɔːr",
+    "pos": "adv.",
+    "trans": "adv. 因此；所以",
+    "level": "CET4"
+  },
+  "though": {
+    "ph": "ðoʊ",
+    "pos": "conj.",
+    "trans": "conj. 虽然；尽管；adv. 不过",
+    "level": "CET4"
+  },
+  "through": {
+    "ph": "θruː",
+    "pos": "prep.",
+    "trans": "prep. 通过；穿过",
+    "level": "CET4"
+  },
+  "throughout": {
+    "ph": "θruːˈaʊt",
+    "pos": "prep.",
+    "trans": "prep. 遍及；贯穿",
+    "level": "CET4"
+  },
+  "together": {
+    "ph": "təˈɡeðər",
+    "pos": "adv.",
+    "trans": "adv. 一起；共同",
+    "level": "CET4"
+  },
+  "toward": {
+    "ph": "tɔːrd",
+    "pos": "prep.",
+    "trans": "prep. 朝；向；对于",
+    "level": "CET4"
+  },
+  "under": {
+    "ph": "ˈʌndər",
+    "pos": "prep.",
+    "trans": "prep. 在…下面；少于",
+    "level": "CET4"
+  },
+  "unless": {
+    "ph": "ʌnˈles",
+    "pos": "conj.",
+    "trans": "conj. 除非；如果不",
+    "level": "CET4"
+  },
+  "until": {
+    "ph": "ʌnˈtɪl",
+    "pos": "prep.",
+    "trans": "prep. 直到…为止",
+    "level": "CET4"
+  },
+  "upon": {
+    "ph": "əˈpɒn",
+    "pos": "prep.",
+    "trans": "prep. 在…上；一…就",
+    "level": "CET4"
+  },
+  "usually": {
+    "ph": "ˈjuːʒuəli",
+    "pos": "adv.",
+    "trans": "adv. 通常；经常",
+    "level": "CET4"
+  },
+  "very": {
+    "ph": "ˈveri",
+    "pos": "adv.",
+    "trans": "adv. 非常；很",
+    "level": "CET4"
+  },
+  "well": {
+    "ph": "wel",
+    "pos": "adv.",
+    "trans": "adv. 好；int. 好吧",
+    "level": "CET4"
+  },
+  "what": {
+    "ph": "wʌt",
+    "pos": "pron.",
+    "trans": "pron. 什么；adj. 什么样的",
+    "level": "CET4"
+  },
+  "whatever": {
+    "ph": "wʌtˈevər",
+    "pos": "pron.",
+    "trans": "pron. 无论什么；adj. 任何",
+    "level": "CET4"
+  },
+  "when": {
+    "ph": "wen",
+    "pos": "adv.",
+    "trans": "adv. 什么时候；conj. 当…时",
+    "level": "CET4"
+  },
+  "whenever": {
+    "ph": "wenˈevər",
+    "pos": "conj.",
+    "trans": "conj. 无论何时；每当",
+    "level": "CET4"
+  },
+  "where": {
+    "ph": "wer",
+    "pos": "adv.",
+    "trans": "adv. 在哪里；conj. 在…的地方",
+    "level": "CET4"
+  },
+  "whether": {
+    "ph": "ˈweðər",
+    "pos": "conj.",
+    "trans": "conj. 是否；无论",
+    "level": "CET4"
+  },
+  "which": {
+    "ph": "wɪtʃ",
+    "pos": "pron.",
+    "trans": "pron. 哪一个；adj. 哪一个",
+    "level": "CET4"
+  },
+  "while": {
+    "ph": "waɪl",
+    "pos": "conj.",
+    "trans": "conj. 当…时；而；n. 一段时间",
+    "level": "CET4"
+  },
+  "who": {
+    "ph": "huː",
+    "pos": "pron.",
+    "trans": "pron. 谁",
+    "level": "CET4"
+  },
+  "whole": {
+    "ph": "hoʊl",
+    "pos": "adj.",
+    "trans": "adj. 整个的；全部的",
+    "level": "CET4"
+  },
+  "whose": {
+    "ph": "huːz",
+    "pos": "pron.",
+    "trans": "pron. 谁的",
+    "level": "CET4"
+  },
+  "why": {
+    "ph": "waɪ",
+    "pos": "adv.",
+    "trans": "adv. 为什么",
+    "level": "CET4"
+  },
+  "wide": {
+    "ph": "waɪd",
+    "pos": "adj.",
+    "trans": "adj. 宽的；广泛的",
+    "level": "CET4"
+  },
+  "will": {
+    "ph": "wɪl",
+    "pos": "v. aux.",
+    "trans": "aux. 将；会；n. 意志",
+    "level": "CET4"
+  },
+  "with": {
+    "ph": "wɪð",
+    "pos": "prep.",
+    "trans": "prep. 与…一起；用；有",
+    "level": "CET4"
+  },
+  "within": {
+    "ph": "wɪˈðɪn",
+    "pos": "prep.",
+    "trans": "prep. 在…之内；adv. 在内",
+    "level": "CET4"
+  },
+  "without": {
+    "ph": "wɪˈðaʊt",
+    "pos": "prep.",
+    "trans": "prep. 没有；不",
+    "level": "CET4"
+  },
+  "yet": {
+    "ph": "jet",
+    "pos": "adv.",
+    "trans": "adv. 还；已经；conj. 然而",
+    "level": "CET4"
+  }
+}
