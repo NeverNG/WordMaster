@@ -1,10 +1,8 @@
 """Edge TTS 语音生成引擎
 
-调用 edge-tts CLI 生成例句朗读 MP3，进行本地缓存管理。
+调用 edge-tts Python API 生成例句朗读 MP3，进行本地缓存管理。
 """
 
-import subprocess
-import sys
 from pathlib import Path
 from typing import Optional
 
@@ -56,32 +54,20 @@ class TTSEngine:
             return out_path
 
         try:
-            startupinfo = None
-            creationflags = 0
-            if sys.platform == "win32":
-                creationflags = subprocess.CREATE_NO_WINDOW  # 防止黑窗口
-            subprocess.run(
-                [
-                    "edge-tts",
-                    "--voice", voice,
-                    "--text", text,
-                    "--write-media", str(out_path),
-                ],
-                check=True,
-                capture_output=True,
-                timeout=30,
-                creationflags=creationflags,
-            )
-            logger.info(f"[TTS] 生成成功: {out_path.name}")
-            return out_path
-        except subprocess.CalledProcessError as e:
-            logger.error(f"[TTS] 生成失败: {e.stderr.decode(errors='replace')}")
+            # 使用 edge_tts Python API (兼容打包环境，无需 CLI)
+            from edge_tts import Communicate
+            Communicate(text, voice).save_sync(str(out_path))
+            if out_path.exists() and out_path.stat().st_size > 0:
+                logger.info(f"[TTS] 生成成功: {out_path.name}")
+                return out_path
+            else:
+                logger.error(f"[TTS] 生成结果为空: {out_path.name}")
+                return None
+        except ImportError:
+            logger.error("[TTS] edge_tts 包未安装: pip install edge-tts")
             return None
-        except FileNotFoundError:
-            logger.error("[TTS] edge-tts 未安装，请执行: pip install edge-tts")
-            return None
-        except subprocess.TimeoutExpired:
-            logger.error("[TTS] 生成超时")
+        except Exception as e:
+            logger.error(f"[TTS] 生成失败 {out_path.name}: {e}")
             return None
 
     def generate_word(self, word: str, voice: str = VOICE_US) -> Optional[Path]:

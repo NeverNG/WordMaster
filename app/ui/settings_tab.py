@@ -172,6 +172,19 @@ class SettingsTab(QWidget):
         update_group = QGroupBox("🔄 同步与升级")
         update_layout = QVBoxLayout(update_group)
 
+        # 当前版本
+        from main import VERSION as _ver
+        ver_row = QHBoxLayout()
+        ver_row.addWidget(QLabel("当前版本:"))
+        self.ver_label = QLabel(f"v{_ver}")
+        self.ver_label.setStyleSheet("font-weight: bold; color: #2a8;")
+        ver_row.addWidget(self.ver_label)
+        self.latest_ver_label = QLabel("")
+        self.latest_ver_label.setStyleSheet("color: #888; font-size: 11px;")
+        ver_row.addWidget(self.latest_ver_label)
+        ver_row.addStretch()
+        update_layout.addLayout(ver_row)
+
         sync_row = QHBoxLayout()
         self.sync_btn = QPushButton("📥 同步词库")
         self.sync_btn.setToolTip("从 GitHub 下载最新词库")
@@ -254,6 +267,7 @@ class SettingsTab(QWidget):
         self.dl_btn.setEnabled(False)
         self.sync_progress.setVisible(True)
         self.sync_status.setText("🔍 正在检查...")
+        self.latest_ver_label.setText("")
 
         self._update_worker = _UpdateWorker()
         self._update_worker.progress.connect(self.sync_status.setText)
@@ -266,6 +280,17 @@ class SettingsTab(QWidget):
         self.sync_progress.setVisible(False)
         self.sync_status.setText(version_text if ok else f"❌ {version_text}")
         self._dl_url = dl_url
+        # 显示最新版本号
+        if ok and "发现新版本" in version_text:
+            import re
+            m = re.search(r"发现新版本: (.+)", version_text)
+            if m:
+                self.latest_ver_label.setText(f"→ 最新: {m.group(1)}")
+                self.latest_ver_label.setStyleSheet("color: #e60; font-weight: bold; font-size: 11px;")
+        elif ok and "已是最新" in version_text:
+            from main import VERSION as _ver
+            self.latest_ver_label.setText("✅ 已是最新")
+            self.latest_ver_label.setStyleSheet("color: #2a8; font-size: 11px;")
         is_new = "发现新版本" in version_text if ok else False
         self.dl_btn.setEnabled(bool(dl_url) and is_new)
         if ok:
