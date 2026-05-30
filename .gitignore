@@ -24,6 +24,7 @@ app/cache/audio/
 app/cache/images/
 app/cache/spectrum/
 app/cache/session.json
+app/cache/words.db
 app/cache/settings.json
 
 # 日志

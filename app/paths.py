@@ -26,3 +26,10 @@ def get_cache_dir(*parts: str) -> Path:
         path = path / p
     path.mkdir(parents=True, exist_ok=True)
     return path
+
+
+def get_db_path() -> Path:
+    """返回数据库文件路径 (持久数据，与缓存分离)"""
+    path = get_app_dir().parent / "app" / "db" / "words.db"
+    path.parent.mkdir(parents=True, exist_ok=True)
+    return path

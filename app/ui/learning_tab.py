@@ -298,12 +298,6 @@ class LearningTab(QWidget):
         self.clear_progress_btn.clicked.connect(self._clear_progress)
         action_row.addWidget(self.clear_progress_btn)
 
-        self.settings_btn = QPushButton("⚙️ 设置")
-        self.settings_btn.setStyleSheet("padding: 4px 10px; font-size: 11px;")
-        self.settings_btn.setToolTip("设置朗读次数和播放间隔")
-        self.settings_btn.clicked.connect(self._open_settings)
-        action_row.addWidget(self.settings_btn)
-
         action_row.addStretch()
         layout.addLayout(action_row)
 
@@ -808,11 +802,6 @@ class LearningTab(QWidget):
             self._session_pos = 0
             self._refresh()
             self.main.stats_tab.refresh()
-
-    def _open_settings(self):
-        from app.ui.quick_settings import QuickSettingsDialog
-        dlg = QuickSettingsDialog(self, self)
-        dlg.exec()
 
     def _sync_auto_btn_style(self):
         if self.auto_btn.isChecked():

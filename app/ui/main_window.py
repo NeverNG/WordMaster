@@ -17,6 +17,7 @@ from app.services import session as sess
 from app.ui.learning_tab import LearningTab
 from app.ui.management_tab import ManagementTab
 from app.ui.stats_tab import StatsTab
+from app.ui.settings_tab import SettingsTab
 
 
 class MainWindow(QMainWindow):
@@ -55,10 +56,12 @@ class MainWindow(QMainWindow):
         self.learning_tab = LearningTab(self.repo, self.audio, self)
         self.management_tab = ManagementTab(self.repo, self)
         self.stats_tab = StatsTab(self.repo, self)
+        self.settings_tab = SettingsTab(self.repo, self)
 
         self.tabs.addTab(self.learning_tab, "📖 学习")
-        self.tabs.addTab(self.management_tab, "📚 管理")
+        self.tabs.addTab(self.management_tab, "📚 词库")
         self.tabs.addTab(self.stats_tab, "📊 统计")
+        self.tabs.addTab(self.settings_tab, "⚙️ 设置")
 
         self.tabs.currentChanged.connect(self._on_tab_changed)
 
@@ -77,6 +80,7 @@ class MainWindow(QMainWindow):
             self.management_tab.search()
         elif index == 2:
             self.stats_tab.refresh()
+
 
 
 def _warmup_librosa():

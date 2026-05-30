@@ -7,7 +7,6 @@ from PySide6.QtWidgets import (
 )
 from PySide6.QtCore import Qt
 from app.ui.word_editor import WordEditorDialog
-from app.ui.settings_dialog import SettingsDialog
 from app.services.text import short_translation
 
 
@@ -132,6 +131,7 @@ class ManagementTab(QWidget):
             self.main.learning_tab.refresh()
 
     def _open_levels(self):
+        from app.ui.settings_dialog import SettingsDialog
         dlg = SettingsDialog(self.repo, self)
         dlg.exec()
         self.main.learning_tab.load_levels()
