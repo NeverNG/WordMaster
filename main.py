@@ -5,6 +5,10 @@ import os
 from pathlib import Path
 from loguru import logger
 
+
+VERSION = "1.0.0"          # 当前版本号，发布时更新
+VERSION_NAME = "v1.0.0"    # 显示用版本名
+
 # 确保项目根在 sys.path 中
 sys.path.insert(0, str(Path(__file__).parent))
 
