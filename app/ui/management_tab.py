@@ -132,7 +132,7 @@ class ManagementTab(QWidget):
             self.main.learning_tab.refresh()
 
     def _open_levels(self):
-        dlg = SettingsDialog(self.repo, self)
+        dlg = SettingsDialog(self.repo, parent=self)
         dlg.exec()
         self.main.learning_tab.load_levels()
         self.main.stats_tab.refresh()

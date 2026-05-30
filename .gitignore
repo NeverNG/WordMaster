@@ -23,7 +23,6 @@ env/
 app/cache/audio/
 app/cache/images/
 app/cache/spectrum/
-app/cache/words.db
 app/cache/session.json
 app/cache/settings.json
 
