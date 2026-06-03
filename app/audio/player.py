@@ -73,6 +73,16 @@ class AudioPlayer(QObject):
     def current_file(self) -> str:
         return self._current_file
 
+    @property
+    def duration(self) -> int:
+        """音频总时长（毫秒），未知时返回 -1"""
+        return self._player.duration()
+
+    @property
+    def position(self) -> int:
+        """当前播放位置（毫秒）"""
+        return self._player.position()
+
     # ── 内部回调 ──
 
     def _on_status_changed(self, status):

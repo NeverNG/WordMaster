@@ -252,6 +252,10 @@ class LearningTab(QWidget):
         self._session_pos: int = 0
         self._word_repeat, self._example_repeat = setsvc.load_audio_settings()
         self._playing_word_audio = False
+        self._karaoke_words: list[str] = []      # 逐词变色用
+        self._karaoke_idx: int = -1
+        self._karaoke_timer = QTimer(self)
+        self._karaoke_timer.timeout.connect(self._on_karaoke_tick)
 
         self._build_ui()
 
@@ -752,6 +756,8 @@ class LearningTab(QWidget):
         except Exception:
             pass
         self.example_frame.start_spectrum()
+        # 启动卡拉 OK 逐词变色
+        self._start_karaoke(ex.get("sentence_en", ""))
 
     def _auto_play_current(self):
         self._is_auto_playing = False
@@ -836,14 +842,65 @@ class LearningTab(QWidget):
                 except Exception:
                     pass
                 self.example_frame.start_spectrum()
+                # 自动播放时也启动卡拉 OK
+                if self._current_example:
+                    self._start_karaoke(self._current_example.get("sentence_en", ""))
             self.audio.play(path)
         else:
             self._is_auto_playing = False
             if self._auto_advance:
                 QTimer.singleShot(self._auto_delay, self._next_word)
 
+    # ── 卡拉 OK 逐词变色 ──
+
+    def _start_karaoke(self, sentence: str):
+        import re
+        parts = re.findall(r"\S+\s*", sentence)
+        if not parts:
+            parts = [sentence]
+        self._karaoke_words = parts
+        self._karaoke_idx = -1
+        # 改用位置跟踪模式：每秒刷新 20 次
+        self._karaoke_timer.start(50)
+
+    def _on_karaoke_tick(self):
+        if not self._karaoke_words:
+            self._stop_karaoke()
+            return
+        duration = self.audio.duration
+        if duration <= 0:
+            return  # 还没获取到时长，跳过
+        pos = self.audio.position
+        # 根据播放进度计算当前应该高亮的词
+        ratio = pos / max(duration, 1)
+        idx = int(ratio * len(self._karaoke_words))
+        idx = min(idx, len(self._karaoke_words) - 1)
+        idx = max(0, idx)
+        if idx == self._karaoke_idx:
+            return  # 同一词，不用重绘
+        self._karaoke_idx = idx
+        # 构建带高亮的 HTML
+        words = self._karaoke_words
+        parts = []
+        for i, w in enumerate(words):
+            escaped = w.replace("&", "&amp;").replace("<", "&lt;").replace(">", "&gt;")
+            if i == idx:
+                parts.append(f'<span style="background:#ffd54f; color:#000; border-radius:3px; padding:0 1px;">{escaped}</span>')
+            else:
+                parts.append(f'<span style="color:#333;">{escaped}</span>')
+        self.example_label.setText("".join(parts))
+
+    def _stop_karaoke(self):
+        self._karaoke_timer.stop()
+        self._karaoke_words = []
+        self._karaoke_idx = -1
+        # 恢复原始文本
+        if self._current_example:
+            self.example_label.setText(self._current_example.get("sentence_en", ""))
+
     def _on_playback_finished(self, filename: str):
         self.word_spectrum.stop()
         self.example_frame.stop_spectrum()
+        self._stop_karaoke()
         if self._is_auto_playing:
             self._play_next_in_queue()
