@@ -6,10 +6,11 @@ from PySide6.QtWidgets import (
     QWidget, QVBoxLayout, QHBoxLayout, QLabel, QPushButton,
     QFrame, QComboBox, QMessageBox,
 )
-from PySide6.QtCore import Qt, QTimer, QRectF
+from PySide6.QtCore import Qt, QTimer, QRectF, QPropertyAnimation
 from PySide6.QtGui import (
     QFont, QPainter, QColor, QBrush, QPen, QConicalGradient,
 )
+from PySide6.QtWidgets import QGraphicsOpacityEffect
 from pathlib import Path
 
 from loguru import logger
@@ -64,10 +65,6 @@ class CardFrame(QFrame):
         painter.setPen(QPen(QBrush(grad), 1))
         painter.setBrush(QBrush(Qt.BrushStyle.NoBrush))
         painter.drawRoundedRect(r, 10, 10)
-        painter.end()
-
-
-
 
 class SpectrumWidget(QWidget):
     """音频频谱动画组件 — 模拟频率分布"""
@@ -157,8 +154,6 @@ class SpectrumWidget(QWidget):
         painter.setRenderHint(QPainter.RenderHint.Antialiasing)
         from app.services.spectrum_painter import paint_spectrum
         paint_spectrum(painter, self._bars, self.width(), self.height(), symmetric=False)
-        painter.end()
-
 
 class ExampleFrame(QFrame):
     """例句框 — 内嵌频谱动画"""
@@ -219,15 +214,12 @@ class ExampleFrame(QFrame):
         self.update()
 
     def paintEvent(self, event):
+        if not self._spectrum_bars:
+            return
         painter = QPainter(self)
         painter.setRenderHint(QPainter.RenderHint.Antialiasing)
-        painter.setBrush(QBrush(QColor("#e8f5e9")))
-        painter.setPen(QPen(Qt.PenStyle.NoPen))
-        painter.drawRoundedRect(QRectF(self.rect()), 6, 6)
-        if self._spectrum_bars:
-            from app.services.spectrum_painter import paint_spectrum
-            paint_spectrum(painter, self._spectrum_bars, self.width(), self.height())
-        painter.end()
+        from app.services.spectrum_painter import paint_spectrum
+        paint_spectrum(painter, self._spectrum_bars, self.width(), self.height(), symmetric=False)
 
 
 class LearningTab(QWidget):
@@ -260,6 +252,7 @@ class LearningTab(QWidget):
         self._build_ui()
 
     def _build_ui(self):
+        self.setFocusPolicy(Qt.FocusPolicy.StrongFocus)
         layout = QVBoxLayout(self)
         layout.setContentsMargins(4, 2, 4, 2)
         layout.setSpacing(3)
@@ -408,6 +401,19 @@ class LearningTab(QWidget):
         layout.addLayout(btn_row)
 
         self.audio.playback_finished.connect(self._on_playback_finished)
+
+    def keyPressEvent(self, event):
+        if event.key() == Qt.Key.Key_Left:
+            self._prev_word()
+        elif event.key() == Qt.Key.Key_Right:
+            self._next_word()
+        elif event.key() == Qt.Key.Key_Space:
+            if self._current_word:
+                if self._playing_word_audio or self._play_queue:
+                    self.audio.stop()
+                else:
+                    self._play_word_audio()
+        super().keyPressEvent(event)
 
     def _set_card_style(self, border_color: str):
         self.card.setStyleSheet(
@@ -566,6 +572,18 @@ class LearningTab(QWidget):
         self.familiar_btn.setEnabled(word.get("last_quality") != 4)
         self.next_btn.setEnabled(True)
         self.prev_btn.setEnabled(bool(self._word_history))
+
+        # 平滑切换：淡入效果
+        self.card.setGraphicsEffect(None)
+        opacity = QGraphicsOpacityEffect(self.card)
+        opacity.setOpacity(0.0)
+        self.card.setGraphicsEffect(opacity)
+        anim = QPropertyAnimation(opacity, b"opacity", self)
+        anim.setDuration(150)
+        anim.setStartValue(0.0)
+        anim.setEndValue(1.0)
+        anim.start()
+        self._fade_anim = anim
 
         self._load_card_image(word["word"])
         # 预先加载单词和例句的频谱数据

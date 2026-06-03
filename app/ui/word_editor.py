@@ -448,6 +448,10 @@ class WordEditorDialog(QDialog):
 
         self._build_ui()
         self._load_existing()
+        # 自动聚焦到单词输入框
+        if self.word_id is None:
+            self.word_input.setFocus()
+            self.word_input.selectAll()
 
     def _build_ui(self):
         layout = QVBoxLayout(self)

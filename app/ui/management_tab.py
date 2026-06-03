@@ -5,7 +5,7 @@ from PySide6.QtWidgets import (
     QLineEdit, QTableWidget, QTableWidgetItem, QHeaderView,
     QMessageBox, QAbstractItemView, QComboBox,
 )
-from PySide6.QtCore import Qt
+from PySide6.QtCore import Qt, QTimer
 from app.ui.word_editor import WordEditorDialog
 from app.services.text import short_translation
 
@@ -36,7 +36,11 @@ class ManagementTab(QWidget):
         search_row.addWidget(self.word_count_label)
         self.level_filter.currentIndexChanged.connect(self._search)
         layout.addLayout(search_row)
-        self.search_input.textChanged.connect(self._search)
+        # 搜索防抖: 停 300ms 后再查
+        self._search_timer = QTimer(self)
+        self._search_timer.setSingleShot(True)
+        self._search_timer.timeout.connect(self._search)
+        self.search_input.textChanged.connect(self._on_search_debounce)
         
         # 操作按钮
         action_row = QHBoxLayout()
@@ -88,6 +92,9 @@ class ManagementTab(QWidget):
 
     def search(self):
         self._search()
+
+    def _on_search_debounce(self):
+        self._search_timer.start(300)
 
     def _search(self):
         keyword = self.search_input.text().strip()

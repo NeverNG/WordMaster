@@ -10,6 +10,7 @@ from PySide6.QtGui import QIcon
 from pathlib import Path
 import sys
 from loguru import logger
+from app.services import settings as setsvc
 
 from app.db import WordRepository
 from app.audio import AudioPlayer
@@ -38,8 +39,21 @@ class MainWindow(QMainWindow):
         if icon_path.exists():
             self.setWindowIcon(QIcon(str(icon_path)))
 
+        # 恢复上次窗口位置
+        self._restore_geometry()
+
         self._build_ui()
         self._init_tabs()
+
+    def _restore_geometry(self):
+        data = setsvc._load_all()
+        pos = data.get("window_position")
+        if pos and len(pos) == 2:
+            self.move(pos[0], pos[1])
+
+    def closeEvent(self, event):
+        setsvc._save_all({"window_position": [self.x(), self.y()]})
+        super().closeEvent(event)
 
     def _build_ui(self):
         central = QWidget()
@@ -50,6 +64,8 @@ class MainWindow(QMainWindow):
 
         self.tabs = QTabWidget()
         self.tabs.setStyleSheet("QTabWidget::pane { border: none; }")
+        # 禁用 Tab 切换的左右箭头，避免与学习页快捷键冲突
+        self.tabs.tabBar().setFocusPolicy(Qt.FocusPolicy.NoFocus)
         layout.addWidget(self.tabs)
 
         # 创建各 Tab 页
@@ -75,6 +91,7 @@ class MainWindow(QMainWindow):
     def _on_tab_changed(self, index: int):
         if index == 0:
             self.learning_tab.refresh()
+            self.learning_tab.setFocus()
         elif index == 1:
             self.management_tab.load_level_filter()
             self.management_tab.search()

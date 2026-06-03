@@ -20,14 +20,8 @@ from app.paths import get_cache_dir, get_db_path
 
 
 def setup_logging():
-    cache_dir = get_cache_dir()
-    logger.add(
-        cache_dir / "wordmaster.log",
-        rotation="1 MB",
-        retention=3,
-        level="INFO",
-        enqueue=True,
-    )
+    # 关闭所有日志输出
+    logger.remove()
 
 
 def main():

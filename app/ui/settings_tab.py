@@ -252,7 +252,7 @@ class SettingsTab(QWidget):
         self.sync_progress.setVisible(False)
         self.sync_status.setText(msg)
         if ok:
-            QMessageBox.information(self, "同步成功", "词库已更新！")
+            # 静默更新，不弹框
             # 刷新学习页和管理页
             if hasattr(self.main, 'learning_tab'):
                 self.main.learning_tab.refresh()

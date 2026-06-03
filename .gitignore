@@ -33,3 +33,13 @@ app/cache/settings.json
 # 系统
 .DS_Store
 Thumbs.db
+
+# Reasonix
+.reasonix/
+
+# SQLite WAL/SHM
+*.db-shm
+*.db-wal
+
+# ZIP 包
+*.zip
