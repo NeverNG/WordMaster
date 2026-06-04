@@ -27,7 +27,7 @@ python -c "import numpy as np; import librosa; librosa.stft(np.zeros(22050,dtype
 rem compile
 echo [3/5] Building...
 
-set FLAGS=--onedir --name WordMaster --icon app/asset/images/icon.ico
+set FLAGS=--onedir --name WordMaster --icon app/asset/images/ABC.ico
 set FLAGS=%FLAGS% --add-data "app/asset;asset"
 set FLAGS=%FLAGS% --hidden-import PySide6.QtNetwork --hidden-import PySide6.QtMultimedia --hidden-import PySide6.QtSvg
 set FLAGS=%FLAGS% --hidden-import numpy --hidden-import librosa --hidden-import scipy

@@ -35,7 +35,7 @@ class MainWindow(QMainWindow):
 
         # PyInstaller 打包后资源在 sys._MEIPASS 下
         base = Path(getattr(sys, '_MEIPASS', Path(__file__).parent.parent))
-        icon_path = base / "asset" / "images" / "icon.ico"
+        icon_path = base / "asset" / "images" / "ABC.ico"
         if icon_path.exists():
             self.setWindowIcon(QIcon(str(icon_path)))
 
