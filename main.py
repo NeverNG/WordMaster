@@ -19,6 +19,16 @@ from app.ui import MainWindow
 from app.paths import get_cache_dir, get_db_path
 
 
+def _set_taskbar_icon():
+    """Windows: 设置任务栏 AppUserModelID，确保图标正确显示"""
+    try:
+        import ctypes
+        app_id = "WordMaster.WordMaster.1"
+        ctypes.windll.shell32.SetCurrentProcessExplicitAppUserModelID(app_id)
+    except Exception:
+        pass
+
+
 def setup_logging():
     # 关闭所有日志输出
     logger.remove()
@@ -26,7 +36,8 @@ def setup_logging():
 
 def main():
     setup_logging()
-    logger.info("WordMaster 启动")
+    # 任务栏 AppID 必须在任何窗口创建前设置
+    _set_taskbar_icon()
 
     # 初始化数据库 (持久数据与缓存分离)
     db_path = get_db_path()
